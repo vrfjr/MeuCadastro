@@ -10,11 +10,7 @@ namespace MeuCadastro.Controllers
 
         public IActionResult Index()
         {
-            HomeModel home = new HomeModel();
-            home.Nome = "Vagner";
-            home.Email = "vagner@gmail.com";  
-
-            return View(home);
+            return View();
         }
 
         public IActionResult Privacy()
